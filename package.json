@@ -1,5 +1,5 @@
 {
-  "name": "weserve",
+  "name": "landing-page-travel",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -12,5 +12,8 @@
   "description": "",
   "devDependencies": {
     "tailwindcss": "^3.4.3"
+  },
+  "dependencies": {
+    "caniuse-lite": "^1.0.30001621"
   }
 }
