@@ -18,20 +18,19 @@
     <div class="container mx-auto">
       <div class="flex justify-between items-center">
         <img src="public/Icon/logo.svg" alt="" />
-        <!-- <img src="public/Icon/burger.svg" alt="" /> -->
 
         <div class="hidden lg:block">
           <ul class="flex gap-16 font-bold font-circular">
-            <li class="opacity-100 peer-checked:opacity-50 peer-checked:hidden ">
+            <li class="hover:text-xpurple-0 transition-opacity  ">
               <a href="#">Home</a>
             </li>
-            <li class="opacity-50 peer-checked:opacity-100 peer-checked:block  ">
+            <li class=" hover:text-xpurple-0 transition-opacity">
               <a href="#">Discover</a>
             </li>
-            <li class="opacity-50">
+            <li class="hover:text-xpurple-0 transition-opacity">
               <a href="#">Special Deals</a>
             </li>
-            <li class="opacity-50">
+            <li class="hover:text-xpurple-0 transition-opacity">
               <a href="#">Contact</a>
             </li>
           </ul>
@@ -41,7 +40,7 @@
           <button class="px-3 py-2 md:px-6 md:py-3 ">
             <span class="text-xpurple-0 font-bold font-circular ">Login</span>
           </button>
-          <button class="px-3 py-2 md:px-6 md:py-3 bg-xpurple-0 rounded-full">
+          <button class="px-3 py-2 md:px-6 md:py-3 bg-xpurple-0 rounded-full hover:bg-purple-800 hover:transition-">
             <span class="text-white font-bold font-circular  ">Sign Up</span>
           </button>
         </div>
@@ -51,31 +50,40 @@
 
     <div class="fixed bottom-0 left-0 right-0  py-2 shadow-[0_-1px_10px_0px_rgba(0,0,0,0.05)] lg:hidden">
       <ul class="flex justify-evenly ">
-        <li>
+
+        <li class="group opacity-50 transition-opacity hover:opacity-100">
           <a href="#" class="flex flex-col justify-center items-center gap text-base">
-            <ion-icon name="home" class=" text-lg text-xpurple-0"></ion-icon>
-            <span class="font-bold text-base text-xpurple-0">Home</span>
+            <ion-icon name="home"
+              class=" text-lg hidden group-hover:inline-block group-hover:text-xpurple-0 "></ion-icon>
+            <ion-icon name="home-outline" class=" text-lg group-hover:hidden "></ion-icon>
+            <span class="text-base group-hover:text-xpurple-0 group-hover:font-bold ">Home</span>
           </a>
         </li>
 
-        <li>
+        <li class="group opacity-50 transition-opacity hover:opacity-100">
           <a href="#" class="flex flex-col justify-center items-center gap text-base">
-            <ion-icon name="earth-outline" class="text-lg opacity-50 "></ion-icon>
-            <span class="opacity-50 text-base">Discover</span>
+            <ion-icon name="earth"
+              class=" text-lg hidden group-hover:inline-block group-hover:text-xpurple-0 "></ion-icon>
+            <ion-icon name="earth-outline" class=" text-lg group-hover:hidden "></ion-icon>
+            <span class="text-base group-hover:text-xpurple-0 group-hover:font-bold ">Discover</span>
           </a>
         </li>
 
-        <li>
+        <li class="group opacity-50 transition-opacity hover:opacity-100">
           <a href="#" class="flex flex-col justify-center items-center gap text-base">
-            <ion-icon name="gift-outline" class=" text-lg opacity-50 "></ion-icon>
-            <span class="opacity-50 text-base">Deals</span>
+            <ion-icon name="gift"
+              class=" text-lg hidden group-hover:inline-block group-hover:text-xpurple-0 "></ion-icon>
+            <ion-icon name="gift-outline" class=" text-lg group-hover:hidden "></ion-icon>
+            <span class="text-base group-hover:text-xpurple-0 group-hover:font-bold ">Deals</span>
           </a>
         </li>
 
-        <li>
+        <li class="group opacity-50 transition-opacity hover:opacity-100">
           <a href="#" class="flex flex-col justify-center items-center gap text-base">
-            <ion-icon name="mail-outline" class=" text-lg opacity-50 "></ion-icon>
-            <span class="opacity-50 text-base">Contact</span>
+            <ion-icon name="mail"
+              class=" text-lg hidden group-hover:inline-block group-hover:text-xpurple-0 "></ion-icon>
+            <ion-icon name="mail-outline" class=" text-lg group-hover:hidden "></ion-icon>
+            <span class="text-base group-hover:text-xpurple-0 group-hover:font-bold ">Contact</span>
           </a>
         </li>
 
