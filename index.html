@@ -16,24 +16,41 @@
 <body>
   <nav class="px-4 py-3">
     <div class="container mx-auto">
-      <div class="flex justify-between">
+      <div class="flex justify-between items-center">
         <img src="public/Icon/logo.svg" alt="" />
         <!-- <img src="public/Icon/burger.svg" alt="" /> -->
 
+        <div class="hidden lg:block">
+          <ul class="flex gap-16 font-bold font-circular">
+            <li class=" ">
+              <a href="">Home</a>
+            </li>
+            <li class="opacity-50  ">
+              <a href="">Discover</a>
+            </li>
+            <li class="opacity-50">
+              <a href="">Special Deals</a>
+            </li>
+            <li class="opacity-50">
+              <a href="">Contact</a>
+            </li>
+          </ul>
+        </div>
+
         <div>
           <button class="px-6 py-3">
-            <span class="text-xpurple-0 font-bold text-base">Login</span>
+            <span class="text-xpurple-0 font-bold font-circular ">Login</span>
           </button>
           <button class="px-6 py-3 bg-xpurple-0 rounded-full">
-            <span class="text-white font-boldtext-base ">Sign Up</span>
+            <span class="text-white font-bold font-circular  ">Sign Up</span>
           </button>
         </div>
 
       </div>
     </div>
 
-    <div class="fixed bottom-0 left-0 right-0 px-10 py-2 shadow-[0_-1px_10px_0px_rgba(0,0,0,0.05)]">
-      <ul class="flex justify-between">
+    <div class="fixed bottom-0 left-0 right-0  py-2 shadow-[0_-1px_10px_0px_rgba(0,0,0,0.05)] lg:hidden">
+      <ul class="flex justify-evenly ">
         <li>
           <a href="#" class="flex flex-col justify-center items-center gap text-base">
             <ion-icon name="home" class=" text-lg text-xpurple-0"></ion-icon>
