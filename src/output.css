@@ -1168,6 +1168,10 @@ h1 {
     flex-direction: row;
   }
 
+  .lg\:items-center {
+    align-items: center;
+  }
+
   .lg\:justify-start {
     justify-content: flex-start;
   }
@@ -1178,5 +1182,13 @@ h1 {
 
   .lg\:text-\[69px\] {
     font-size: 69px;
+  }
+
+  .lg\:text-\[44px\] {
+    font-size: 44px;
+  }
+
+  .lg\:text-\[50px\] {
+    font-size: 50px;
   }
 }
