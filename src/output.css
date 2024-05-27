@@ -634,6 +634,14 @@ h1 {
   grid-column: span 12 / span 12;
 }
 
+.col-span-4 {
+  grid-column: span 4 / span 4;
+}
+
+.col-span-8 {
+  grid-column: span 8 / span 8;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -685,6 +693,26 @@ h1 {
 
 .w-\[370px\] {
   width: 370px;
+}
+
+.w-\[360px\] {
+  width: 360px;
+}
+
+.w-\[350px\] {
+  width: 350px;
+}
+
+.w-\[330\] {
+  width: 330;
+}
+
+.w-\[330px\] {
+  width: 330px;
+}
+
+.w-\[340px\] {
+  width: 340px;
 }
 
 .flex-grow {
@@ -924,6 +952,14 @@ h1 {
   line-height: 2.25rem;
 }
 
+.leading-4 {
+  line-height: 1rem;
+}
+
+.leading-8 {
+  line-height: 2rem;
+}
+
 .tracking-widest {
   letter-spacing: 0.1em;
 }
@@ -1043,6 +1079,14 @@ h1 {
     padding: 4rem;
   }
 
+  .md\:p-8 {
+    padding: 2rem;
+  }
+
+  .md\:p-10 {
+    padding: 2.5rem;
+  }
+
   .md\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -1051,6 +1095,16 @@ h1 {
   .md\:py-3 {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
+  }
+
+  .md\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .md\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   .md\:text-\[56px\] {
@@ -1108,6 +1162,10 @@ h1 {
 
   .lg\:max-w-full {
     max-width: 100%;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
   }
 
   .lg\:justify-start {
