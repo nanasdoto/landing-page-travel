@@ -683,6 +683,10 @@ h1 {
   width: 398px;
 }
 
+.w-\[370px\] {
+  width: 370px;
+}
+
 .flex-grow {
   flex-grow: 1;
 }
