@@ -95,7 +95,7 @@
 
   <!-- Hero Section -->
   <section>
-    <div class="container mx-auto px-4 py-8 md:px-10">
+    <div class="container mx-auto px-4 py-8 md:px-10 lg:px-0 ">
       <div class="grid grid-cols-12 items-center">
 
         <div class="lg:col-span-5 col-span-12 order-2 lg:order-1 ">
@@ -112,6 +112,7 @@
               many choices
               as possible
             </p>
+
             <div class="flex flex-col md:flex-row gap-6  justify-center lg:justify-start">
               <button class="font-circular text-sm font-bold px-12 py-6 text-white bg-xpurple-0 rounded-full">
                 Get Started
@@ -122,6 +123,7 @@
                 Watch Demo
               </button>
             </div>
+
           </div>
         </div>
 
@@ -219,30 +221,33 @@
       <div class="px-4 py-8">
         <div class="container mx-auto">
 
-          <div class="flex flex-col gap-4">
-            <div class="flex justify-center lg:justify-start">
-              <h2 class="font-circular font-bold text-base text-xpink-0 tracking-[3px] md:text-2xl ">TOP DESTINATION
-              </h2>
+          <div class="flex flex-col lg:flex-row lg:justify-between">
+            <div class="flex flex-col gap-4">
+              <div class="flex justify-center lg:justify-start">
+                <h2 class="font-circular font-bold text-base text-xpink-0 tracking-[3px] md:text-2xl ">TOP DESTINATION
+                </h2>
+              </div>
+              <div class="flex justify-center lg:justify-start">
+                <h1 class="font-bold text-[32px] text-center leading-none md:text-[40px] lg:text-[50px] lg:text-start">
+                  Explore top destination
+                </h1>
+              </div>
             </div>
-            <div class="flex justify-center lg:justify-start">
-              <h1 class="font-bold text-[32px] text-center leading-none md:text-[40px] lg:text-[50px] lg:text-start">
-                Explore top destination
-              </h1>
+
+            <div class="flex justify-between my-8 md:justify-center gap-8 ">
+              <button class="p-6 rounded-full bg-white border-2">
+                <img src="./public/Icon/arrow-left.svg" alt="">
+              </button>
+              <button class="p-6 rounded-full bg-xpurple-0 drop-shadow-md ">
+                <img src="./public/Icon/arrow.svg" alt="">
+              </button>
             </div>
           </div>
 
-          <div class="flex justify-between my-8 md:justify-center gap-8 ">
-            <button class="p-6 rounded-full bg-white border-2">
-              <img src="./public/Icon/arrow-left.svg" alt="">
-            </button>
-            <button class="p-6 rounded-full bg-xpurple-0 drop-shadow-md ">
-              <img src="./public/Icon/arrow.svg" alt="">
-            </button>
-          </div>
 
-          <div class="flex flex-col justify-center items-center gap-8 md:flex-row md:gap-4 ">
+          <div class="flex flex-col justify-center items-center gap-8 md:flex-row md:gap-4 lg:gap-8 ">
 
-            <div class="w-[340px] bg-white drop-shadow-md rounded-3xl ">
+            <div class="w-[340px] lg:w-[400px] bg-white drop-shadow-md rounded-3xl ">
               <img class="rounded-t-3xl h-[250px] object-cover w-full" src="./public/Image/beach.svg" alt="">
               <div class="p-8 ">
                 <h2 class="font-bold font-circular text-xpink-0 text-2xl">$550.16</h2>
@@ -257,7 +262,7 @@
               </div>
             </div>
 
-            <div class="w-[340px] bg-white drop-shadow-md rounded-3xl">
+            <div class="w-[340px] lg:w-[400px] bg-white drop-shadow-md rounded-3xl">
               <img class="rounded-t-3xl h-[250px] object-cover w-full" src="./public/Image/fish.svg" alt="">
               <div class="p-8 ">
                 <h2 class="font-bold font-circular text-xpink-0 text-2xl">$20.99</h2>
@@ -271,7 +276,7 @@
               </div>
             </div>
 
-            <div class="w-[340px] bg-white drop-shadow-md rounded-3xl">
+            <div class="w-[340px] lg:w-[400px] bg-white drop-shadow-md rounded-3xl">
               <img class="rounded-t-3xl h-[250px] object-cover w-full" src="./public/Image/mountain.svg" alt="">
               <div class="p-8 ">
                 <h2 class="font-bold font-circular text-xpink-0 text-2xl">$150.99</h2>
@@ -287,10 +292,75 @@
             </div>
 
           </div>
+
         </div>
       </div>
     </section>
     <!-- end Top Destination -->
+
+    <!-- Travel Point Section -->
+
+    <div class="px-4 py-8 container mx-auto flex flex-col lg:flex-row">
+      <div class="my-8 ">
+        <img src="./public/Image/girl.svg" alt="">
+      </div>
+
+      <div class="flex flex-col">
+
+        <div class="flex flex-col gap-4">
+          <div class="flex justify-center lg:justify-start">
+            <h2 class="font-circular font-bold text-base text-xpink-0 tracking-[3px] md:text-2xl ">TRAVEL POINT
+            </h2>
+          </div>
+          <div class="flex justify-center lg:justify-start">
+            <h1 class="font-bold text-[32px] text-center leading-none md:text-[40px] lg:text-[50px] lg:text-start">
+              We helping you find your dream location
+            </h1>
+          </div>
+          <div class="flex justify-center lg:justify-start">
+            <p class="text-center opacity-50 mt-4">Contrary to popular belief, Lorem Ipsum is not simply random text. It
+              has
+              roots in a piece of classical
+              Latin
+              literature from 45 BC.</p>
+          </div>
+        </div>
+
+        <div class="flex flex-col mt-8">
+          <div class="grid grid-cols-12 gap-4">
+
+            <div class="col-span-12 md:col-span-6">
+              <div class="p-8 border-2 rounded-3xl text-center gap-4 mb-4">
+                <h1 class="font-circular font-bold text-4xl text-xorange-0">500+</h1>
+                <h2 class="text-lg">Holiday Package</h2>
+              </div>
+
+              <div class="p-8 border-2 rounded-3xl text-center gap-4 ">
+                <h1 class="font-circular font-bold text-4xl text-xorange-0">100</h1>
+                <h2 class="text-lg">Luxury Hotel</h2>
+              </div>
+            </div>
+
+            <div class="col-span-12 md:col-span-6">
+              <div class="p-8 border-2 rounded-3xl text-center gap-4 mb-4">
+                <h1 class="font-circular font-bold text-4xl text-xorange-0">7</h1>
+                <h2 class="text-lg">Premium Airlines</h2>
+              </div>
+
+              <div class="p-8 border-2 rounded-3xl text-center gap-4">
+                <h1 class="font-circular font-bold text-4xl text-xorange-0">2k+</h1>
+                <h2 class="text-lg">Happy Customer</h2>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <!-- endTravel Point -->
     <div class="py-9">
     </div>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
