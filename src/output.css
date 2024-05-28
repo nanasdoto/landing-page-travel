@@ -606,10 +606,6 @@ h1 {
   position: fixed;
 }
 
-.absolute {
-  position: absolute;
-}
-
 .bottom-0 {
   bottom: 0px;
 }
@@ -638,14 +634,6 @@ h1 {
   grid-column: span 12 / span 12;
 }
 
-.col-span-6 {
-  grid-column: span 6 / span 6;
-}
-
-.row-span-12 {
-  grid-row: span 12 / span 12;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -654,21 +642,6 @@ h1 {
 .my-8 {
   margin-top: 2rem;
   margin-bottom: 2rem;
-}
-
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-.my-2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.mx-8 {
-  margin-left: 2rem;
-  margin-right: 2rem;
 }
 
 .mb-4 {
@@ -731,16 +704,8 @@ h1 {
   width: 100%;
 }
 
-.w-screen {
-  width: 100vw;
-}
-
 .grid-cols-12 {
   grid-template-columns: repeat(12, minmax(0, 1fr));
-}
-
-.grid-rows-12 {
-  grid-template-rows: repeat(12, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -791,10 +756,6 @@ h1 {
   gap: 2rem;
 }
 
-.gap-10 {
-  gap: 2.5rem;
-}
-
 .rounded-3xl {
   border-radius: 1.5rem;
 }
@@ -824,15 +785,6 @@ h1 {
 .bg-xpurple-0 {
   --tw-bg-opacity: 1;
   background-color: rgb(93 80 198 / var(--tw-bg-opacity));
-}
-
-.bg-red-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(185 28 28 / var(--tw-bg-opacity));
-}
-
-.bg-fixed {
-  background-attachment: fixed;
 }
 
 .object-cover {
@@ -911,6 +863,11 @@ h1 {
   line-height: 2rem;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .text-\[32px\] {
   font-size: 32px;
 }
@@ -932,11 +889,6 @@ h1 {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .font-bold {
@@ -1059,20 +1011,8 @@ h1 {
     grid-column: span 6 / span 6;
   }
 
-  .md\:row-span-6 {
-    grid-row: span 6 / span 6;
-  }
-
-  .md\:row-span-3 {
-    grid-row: span 3 / span 3;
-  }
-
   .md\:mt-8 {
     margin-top: 2rem;
-  }
-
-  .md\:mb-4 {
-    margin-bottom: 1rem;
   }
 
   .md\:h-8 {
@@ -1221,10 +1161,6 @@ h1 {
 
   .lg\:justify-between {
     justify-content: space-between;
-  }
-
-  .lg\:justify-evenly {
-    justify-content: space-evenly;
   }
 
   .lg\:gap-8 {
